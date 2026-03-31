@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Seven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Focus Seven</h1>
+        <button id="history-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            History
+        </button>
+    </header>
+
+    <main>
+        <div id="add-habit-container">
+            <input type="text" id="new-habit-input" placeholder="Enter a new focus area (max 7)">
+            <button id="add-habit-btn">Add Focus</button>
+        </div>
+
+        <div id="habits-list">
+            <!-- Habit items will be injected here -->
+        </div>
+    </main>
+
+    <div id="history-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Analysis Dashboard</h2>
+                <button id="close-modal-btn">&times;</button>
+            </div>
+            <div id="history-content">
+                <!-- History logs will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast Notification -->
+    <div id="toast" class="toast hidden">Improvement Logged!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

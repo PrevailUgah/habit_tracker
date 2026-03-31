@@ -1,6 +1,6 @@
 # Focus Seven Habit Tracker 🚀
 
-Hey there! Welcome to the very first prototype of **Focus Seven**—a super-fast, offline-first habit tracker built entirely with Vanilla HTML, CSS, and JavaScript. Zero dependencies, pure performance! ⚡️
+Hey there! Welcome to the very first prototype of **Focus Seven** a super-fast, offline-first habit tracker built entirely with Vanilla HTML, CSS, and JavaScript. Zero dependencies, pure performance! ⚡️
 
 ## What is this?
 This is a lightweight app designed to help you build solid habits without the clutter of heavy frameworks. It enforces a "Focus Seven" rule, meaning you can only track up to 7 habits at a time. The goal is to keep you laser-focused on what actually matters instead of overwhelming you!
